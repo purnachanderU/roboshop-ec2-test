@@ -25,4 +25,5 @@ override.tf.json
 terraform.rc
 
 # Ignore terraform plan outputs (can contain sensitive state data)
-*tfplan*
+*tfplan*.terraform/
+*.exe
